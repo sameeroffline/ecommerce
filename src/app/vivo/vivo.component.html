@@ -1,0 +1,24 @@
+<!-- style="width: 18rem;" -->
+
+
+<div class="vivo row">
+<div class="card col-lg-2 col-md-3 col-sm-4 "  *ngFor="let item of vivoitems" >
+  <img src="{{item.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"> {{item.name}}</h3>
+    <h5 class="card-title">{{item.price | currency:'INR'}}</h5>
+    <p class="card-text"> {{item.details}}</p>
+    <a [routerLink]="['/vivo-data',item.id]" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+ 
+
+
+</div>
+
+
+
+
+
+

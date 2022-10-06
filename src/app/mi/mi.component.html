@@ -1,0 +1,24 @@
+<div class="mi row">
+
+<div class="card col-lg-2 col-md-4 col-sm-12" *ngFor="let item of miitems">
+  <img src="{{item.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">{{item.name}}</h3>
+    <h5 class="card-title">{{item.price | currency:'INR'}}</h5>
+    <p class="card-text">{{item.details}}</p>
+    <a [routerLink]="['/mi-data',item.id]" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+
+ 
+
+</div>
+
+
+
+
+
+
+
+
+

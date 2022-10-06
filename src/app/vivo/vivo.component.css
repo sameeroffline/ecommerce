@@ -1,0 +1,208 @@
+ .row {
+   margin: 0;
+ }
+
+ .vivo {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+   cursor: pointer;
+   column-gap: 1rem;
+   row-gap: 1rem;
+ }
+
+ .card {
+   padding: 5px;
+
+ }
+
+
+ h5 {
+   font-size: small;
+   font-weight: bold;
+ }
+
+
+
+ @media screen and (max-width: 1250px) {
+   .card {
+     height: 20.rem;
+     width: 12.5rem;
+     margin-left: 0.2rem;
+     margin-right: 0.2rem;
+   }
+
+
+
+
+   .card-body {
+     padding: 0 2px;
+
+   }
+
+   .card shadow {
+     padding: 2px;
+   }
+
+   /* .card-title {
+  font-size: 17px;
+} */
+
+   .btn {
+     width: 60px;
+     height: 25px;
+     padding: 1px;
+     font-size: small;
+   }
+
+ }
+
+
+ @media screen and (max-width: 992px) {
+
+
+   .card {
+     height: 20.rem;
+     width: 12.5rem;
+     margin-left: 0.2rem;
+     margin-right: 0.2rem;
+   }
+
+
+   .card-body {
+     padding: 0 2px;
+
+   }
+
+   .card shadow {
+     padding: 2px;
+   }
+
+
+   .btn {
+     width: 60px;
+     height: 25px;
+     padding: 1px;
+     font-size: small;
+   }
+
+
+   img {
+     width: 188px;
+     padding: 0;
+   }
+
+ }
+
+
+
+ @media screen and (max-width: 671px) {
+
+
+   .card {
+     height: 16.rem;
+     width: 9.5rem;
+     margin-left: 0.2rem;
+     margin-right: 0.2rem;
+   }
+
+
+   .card-body {
+     padding: 0 2px;
+
+   }
+
+   .card shadow {
+     padding: 2px;
+   }
+
+
+   .btn {
+     width: 50px;
+     height: 21px;
+     padding: 1px;
+     font-size: small;
+   }
+
+
+   h3 {
+     font-size: medium;
+   }
+
+
+   p {
+     font-size: x-small;
+   }
+
+
+   img {
+     width: 140px;
+     padding: 0;
+   }
+
+ }
+
+
+ @media screen and (max-width: 527px) {
+
+   .vivo {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 1px;
+     cursor: pointer;
+     column-gap: 0.3rem;
+     row-gap: 0.3rem;
+   }
+
+   .card {
+     height: 13.rem;
+     width: 6.5rem;
+     margin-left: 0.2rem;
+     margin-right: 0.2rem;
+   }
+
+
+   .card-body {
+     padding: 0 2px;
+
+   }
+
+   .card shadow {
+     padding: 2px;
+   }
+
+
+   .btn {
+     width: 50px;
+     height: 21px;
+     padding: 1px;
+     font-size: small;
+   }
+
+
+   h3 {
+     font-size: x-small;
+     margin: 0;
+   }
+
+
+   h5 {
+     font-size: x-small;
+     font-weight: 500;
+     margin: 0;
+
+   }
+
+
+   p {
+     font-size: 40%;
+   }
+
+
+   img {
+     width: 94px;
+     padding: 0;
+   }
+
+
+ }

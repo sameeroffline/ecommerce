@@ -1,0 +1,162 @@
+ /* body {
+  font-family: Montserrat, sans-serif;
+}
+.navbar-brand {
+background-image: url('https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?resize=400x0');
+  background-position: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 48px;
+  height: 48px;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgba(180, 190, 203, 0.4);
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.input-group{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form-outline{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form-outline > input{
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.form-outline > button > i{
+  color:#fff;
+  font-size: large;
+  font-weight: bold;
+}
+.form-outline > button{
+  border: 1px solid #fff;
+  border-bottom-left-radius: 0%;
+  border-top-left-radius: 0%;
+}
+ 
+  
+  */
+ 
+
+
+
+
+
+
+
+
+
+.full{
+  overflow: hidden;
+  scroll-behavior: unset;
+  /* line-gap-override: 19px; */
+}
+
+ 
+  .logo > img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.sticky-top{
+  background-color: whitesmoke;
+}
+
+
+ .nav{
+  background-color: rgb(42, 79, 243);
+  color: white;
+  border-bottom: 1px solid rgb(66, 66, 66);
+ 
+  box-shadow: 0 4px 8px 0 white,0 6px 20px 0 white,;
+
+}
+
+/* .active{
+  color: rgb(255, 128, 0);
+} */
+
+
+.menu-spacer {
+  flex: 1 1 auto;
+}
+
+a{
+  font-size: 20px;
+}
+a:hover{
+  color: black;
+  /* background-color: white; */
+  border-radius: 40px;
+
+}
+mat-sidenav {
+  background-color: rgb(246, 247, 238);
+  /* height: 348px; */
+}
+.form-control{
+  width: 40%;
+}
+.menu-icon{
+  background-color: rgb(42, 79, 243);
+  color: white;
+  margin: 0%;
+}
+
+@media only screen and (max-width: 800px) {
+  a {
+      font-size: 16px;
+  }
+ 
+
+.form-control{
+  width: 35%;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+  .logo> img{
+    height: 35px;
+    width: 45px;
+  }
+
+  .companyName{
+    font-size:x-small;
+
+}
+
+
+}
+}

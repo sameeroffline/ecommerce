@@ -1,0 +1,150 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a> -->
+
+
+
+
+
+    <!-- <div class="input-group">
+      <div class="form-outline">
+        <input type="search" id="form1" class="form-control" />
+        <button class="btn"><i class="bi bi-search"></i></button>
+      </div>
+    </div> -->
+
+
+
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav ">
+
+      <ul class="navbar-nav ms-md-auto gap-2 ">
+        <li class="nav-item rounded">
+          <a class="nav-link active" aria-current="page" routerLink="home"><i class="bi bi-house-fill me-2"></i>Home</a>
+        </li>
+        <li class="nav-item rounded">
+
+          <a class="nav-link active" routerLink="cart"><i class="fa fa-shopping-cart me-2"></i>Cart</a>
+        </li>
+        <li class="nav-item rounded">
+          <a class="nav-link active" href="#"><i class="bi bi-telephone-fill me-2"></i>Support</a>
+        </li>
+        <li class="nav-item dropdown rounded">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false"><i class="bi bi-person-fill me-2"></i>Profile</a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 100vh;" class="full"> 
+  <mat-toolbar class="nav" >
+      <div fxShow="true" fxHide.gt-sm="true">
+        <button mat-icon-button  class="menu-icon" (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+
+      <div class="logo">
+          <img src="https://indyme.com/wp-content/uploads/2020/11/shopping-cart-icon.png" alt="logo" height="50px" width="60px">
+      </div>
+          
+
+      <a mat-button class="companyName" routerLink="home">
+        <span>Rakutentu</span>
+      </a>
+      <input type="text" matInput placeholder="Search" class="form-control">
+
+      <span class="menu-spacer"></span>
+      <div fxShow="true" fxHide.lt-md="true" fxLayoutAlign="left">
+        
+        <a mat-button routerLink="/home"    routerLinkActive="active">Home</a>
+        <a mat-button routerLink="/cart"   routerLinkActive="active">Cart</a>
+        <a mat-button routerLink="/account" routerLinkActive="active">Accounts</a>
+        <a mat-button routerLink="about"  routerLinkActive="active">About</a>
+        
+      </div>
+    </mat-toolbar>
+    <mat-sidenav-container fxFlexFill class="example-container">
+      <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
+        <div fxLayout="column">
+          <a mat-button routerLink="home"    routerLinkActive="active">Home</a>
+          <a mat-button routerLink="cart"   routerLinkActive="active">Cart</a>
+          <a mat-button routerLink="account" routerLinkActive="active">Accounts</a>
+          <a mat-button routerLink="about"  routerLinkActive="active">About</a>
+        </div>
+      </mat-sidenav>
+      <mat-sidenav-content fxFlexFill>
+
+        <app-header2 class="sticky-top"></app-header2>
+        <router-outlet></router-outlet>
+
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div> 
+
+
+
+
+
+
+
+
+<!-- <div class="vh-100 d-flex justify-content-center align-items-center"> -->
+<!-- <div class="top">
+</div> -->
+
+
+<!-- <div class="bg-dark text-white ">
+  <p class="text-center p-4 m-0">Footer Content</p>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+  <span matPrefix> </span>
+  <input type="tel" matInput placeholder="Search" name= "search" [(ngModel)]= "search">
+  <button matSuffix mat-button><mat-icon >search</mat-icon></button>
+  </mat-form-field>
+  <br/>
+  {{search}}
+  </form> -->

@@ -1,0 +1,12 @@
+<div class="apple row gap-4 justify-content-center mt-3">
+    <div class="card col-lg-2 col-md-4 col-sm-12"  *ngFor="let item of grocery1" >
+      <img src="{{item.image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{item.name}}</h5>
+        <h5 class="card-title">{{item.price | currency:'INR'}}</h5>
+
+        <p class="card-text">{{item.details}}</p>
+        <a [routerLink]="['/grocery1-data',item.id]" class="btn btn-primary">But Now</a>
+      </div>
+    </div>
+    </div>

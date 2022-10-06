@@ -1,0 +1,48 @@
+.top2{
+    align-items: center;
+    justify-content: center;
+       
+}
+.top3{
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 50px;
+    color: rgb(88, 7, 7);
+}
+.col-lg-2{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    border-bottom:2px solid rgb(175, 114, 0) ;
+   background-color: whitesmoke;
+    width: 100%;
+    padding: 12px;
+}
+
+
+ 
+
+
+ @media only screen and (max-width: 576px) {
+
+ .dropdown{
+    width: 29%;
+    font-size: medium;
+ }
+
+
+} 
+
+
+@media only screen and (max-width: 476px) {
+
+    .dropdown{
+       width: 29%;
+       font-size: x-small;
+    }
+   
+   
+   } 
